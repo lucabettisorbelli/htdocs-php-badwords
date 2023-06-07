@@ -10,10 +10,17 @@
 
 <body>
     <header>
-        <?php
-        $name = 'luca';
-        ?>
-        <h2>Il mio nome è <? echo $name ?></h2>
+        <form action="censura.php" method="POST">
+            <label for="paragrafo">Paragrafo:</label>
+            <br>
+            <input type="text" name="paragrafo"></input>
+            <br><br>
+            <label for="censura">Parola da censurare:</label>
+            <br>
+            <input type="text" name="censura">
+            <br><br>
+            <input type="submit" value="Invia">
+        </form>
     </header>
 </body>
 
