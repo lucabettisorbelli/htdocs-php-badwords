@@ -22,5 +22,5 @@ class Movie
 $movie1 = new Movie("Titanic", "James Cameron", 1997);
 $movie2 = new Movie("Pulp Fiction", "Quentin Tarantino", 1994);
 
-echo $movie1->getInfo() . '<br>';
+echo $movie1->getInfo();
 echo $movie2->getInfo();
